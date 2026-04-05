@@ -1,10 +1,10 @@
 # **ZERO TRUST. Federal File Sharing System**  
-![Role – Builder](https://img.shields.io/badge/Role-Builder-grey?style=for-the-badge&logo=secure)
-![Skill – Secure System Design](https://img.shields.io/badge/Skill-Secure_System_Design-yellow?style=for-the-badge&logo=python)
-![Output – Secure File Sharing](https://img.shields.io/badge/Output-Secure_File_Sharing-green?style=for-the-badge)
-![Compliance – NIST_800-53/FISMA](https://img.shields.io/badge/Compliance-NIST_800--53%2FFISMA-blueviolet?style=for-the-badge)
-![Simulation – Lab-Ready Security Environment](https://img.shields.io/badge/Simulation-Lab_Ready_Security_Environment-lightgrey?style=for-the-badge)
-![Encryption – AES/RSA + Key Rotation](https://img.shields.io/badge/Encryption-AES%2FRSA_+_Key_Rotation-orange?style=for-the-badge)  
+![Role – Builder](https://img.shields.io/badge/Role-Builder-grey?style=for-the-badge&logo=secure&color=lightgrey)
+![Skill – Secure System Design](https://img.shields.io/badge/Skill-Secure_System_Design-grey?style=for-the-badge&logo=python&color=lightgrey)
+![Output – Secure File Sharing](https://img.shields.io/badge/Output-Secure_File_Sharing-grey?style=for-the-badge&color=lightgrey)
+![Compliance – NIST_800-53/FISMA](https://img.shields.io/badge/Compliance-NIST_800--53%2FFISMA-grey?style=for-the-badge&color=lightgrey)
+![Simulation – Lab-Ready Security Environment](https://img.shields.io/badge/Simulation-Lab_Ready_Security_Environment-grey?style=for-the-badge&color=lightgrey)
+![Encryption – AES/RSA + Key Rotation](https://img.shields.io/badge/Encryption-AES%2FRSA_+_Key_Rotation-grey?style=for-the-badge&color=lightgrey)  
 A secure file-sharing platform built around zero trust principles, where all access is continuously verified and never implicitly trusted.  
 ✅ Simulates real-world secure system design  
 End-to-end encryption for all files  
