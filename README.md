@@ -4,7 +4,7 @@
 ![Output – Secure File Sharing](https://img.shields.io/badge/Output-Secure_File_Sharing-lightgrey?style=for-the-badge&logo=files&logoColor=white)
 ![Compliance – NIST_800-53/FISMA](https://img.shields.io/badge/Compliance-NIST_800--53%2FFISMA-lightgrey?style=for-the-badge&logo=government&logoColor=white)
 ![Simulation – Lab-Ready Security Environment](https://img.shields.io/badge/Simulation-Lab_Ready_Security_Environment-lightgrey?style=for-the-badge&logo=laboratory&logoColor=white)
-![Encryption – AES/RSA + Key Rotation](https://img.shields.io/badge/Encryption-AES%2FRSA_+_Key_Rotation-lightgrey?style=for-the-badge&logo=lock&logoColor=white)  
+![Role – Builder](https://img.shields.io/badge/Role-Builder-lightgrey?style=for-the-badge&logo=hackthebox&logoColor=white)  
 A secure file-sharing platform built around zero trust principles, where all access is continuously verified and never implicitly trusted.  
 ✅ Simulates real-world secure system design  
 End-to-end encryption for all files  
