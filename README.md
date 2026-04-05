@@ -1,5 +1,5 @@
 # **ZERO TRUST. Federal File Sharing System**  
-![Role – Builder](https://img.shields.io/badge/Role-Builder-lightgrey?style=for-the-badge&logo=box&logoColor=white)
+![Role – Builder](https://img.shields.io/badge/Role-Builder-lightgrey?style=for-the-badge&logo=hackthebox&logoColor=white)
 ![Skill – Secure System Design](https://img.shields.io/badge/Skill-Secure_System_Design-lightgrey?style=for-the-badge&logo=python&logoColor=white)
 ![Output – Secure File Sharing](https://img.shields.io/badge/Output-Secure_File_Sharing-lightgrey?style=for-the-badge&logo=files&logoColor=white)
 ![Compliance – NIST_800-53/FISMA](https://img.shields.io/badge/Compliance-NIST_800--53%2FFISMA-lightgrey?style=for-the-badge&logo=government&logoColor=white)
