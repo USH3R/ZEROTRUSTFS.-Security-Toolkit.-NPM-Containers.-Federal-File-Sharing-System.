@@ -49,6 +49,8 @@ Ability to produce auditable and compliant security outputs (very federal-friend
   
 This project is part of a full-spectrum cybersecurity portfolio that demonstrates end-to-end capability in offensive, defensive, and secure system design workflows:  
 **Red Team (OffSec Simulator):** Simulates attacker workflows and penetration testing.  
+https://github.com/USH3R/REDTEAM.-Offensive-Security-Simulator  
 **Blue Team (SentinelOps):** Detects threats and generates actionable incident reports.  
+https://github.com/USH3R/BLUETEAM.-SentinelOps.-Defense-Detection-System-Dashboard  
 **Zero Trust (Federal File Sharing System):** Builds secure, auditable, zero trust-compliant systems.  
 Together, these projects showcase full-spectrum cybersecurity capability, illustrating that the author can attack, defend, and build secure systems across the complete security lifecycle.  
