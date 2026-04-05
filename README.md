@@ -42,6 +42,9 @@ Audit and compliance logging
 Generates PDF or HTML summaries of user activity and access attempts  
 Demonstrates system integrity and security posture  
   
+**Zero Trust Workflow**  
+[Authenticate] → [Authorize] → [Encrypt/Protect] → [Audit]  
+  
 **Proves or shows the following:**  
 Understanding of secure system design and zero trust principles  
 Practical implementation of encryption, authentication, and access control  
