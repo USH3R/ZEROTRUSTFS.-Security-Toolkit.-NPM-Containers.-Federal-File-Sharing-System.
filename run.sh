@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# 🚀 Zero Trust FS Minimal Pipeline - Fully Automatic Setup
+# 🚀 Zero Trust FS Minimal Pipeline - Fully Automatic Setup & Launch
 
 echo "=== Zero Trust FS Minimal Pipeline ==="
 echo "Checking and installing dependencies..."
@@ -35,12 +35,12 @@ python3 -m pip install --quiet pyyaml
 if [ ! -d "files" ]; then
     echo "Creating 'files' folder for test files..."
     mkdir files
-    # Create some example files
     echo "Top Secret Report" > files/secret_report.txt
     echo "Editable Document" > files/edit_document.txt
     echo "Public Note" > files/public_note.txt
 fi
 
-# 5️⃣ Run the main Python pipeline
+# 5️⃣ Automatically launch the Python orchestrator
 echo "Starting Zero Trust FS..."
+# This immediately launches main.py, which handles authentication
 python3 main.py
