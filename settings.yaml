@@ -1,16 +1,16 @@
 users:
   alice:
-    password_hash: "3b5d5c3712955042212316173ccf37be80021f0a8eb0c1a4d6eae4cba151d84f" # alicepass
-    role: "admin"
-    devices: ["device123", "laptop001"]
+    password_hash: 13dc8554575637802eec3c0117f41591a990e1a2d37160018c48c9125063838a
+    role: admin
+    devices: ["device123"]
   bob:
-    password_hash: "178229987978255b7661073e5108036573e6592f03672d2449525946c764e567" # bobpass
-    role: "editor"
+    password_hash: 178229987978255b7661073e5108036573e6592f03672d2449525946c764e567
+    role: editor
     devices: ["device456"]
   eve:
-    password_hash: "6f5280c7499684179b47e5b699e1bc7076a9f0f97bc353e8e19c0b05b0d6657a" # evepass
-    role: "viewer"
-    devices: [] # No restriction for eve in your setup
+    password_hash: 6f5280c7499684179b47e5b699e1bc7076a9f0f97bc353e8e19c0b05b0d6657a
+    role: viewer
+    devices: []
 
 policies:
   secret_report.txt: ["admin"]
