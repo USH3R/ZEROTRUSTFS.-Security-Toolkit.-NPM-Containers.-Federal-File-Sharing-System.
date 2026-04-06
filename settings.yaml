@@ -1,28 +1,18 @@
-# settings.yaml
-
-# Users and their roles and password hashes (SHA256)
 users:
   alice:
-    role: admin
-    password_hash: "3b5d5c3712955042212316173ccf37be80021f0a8eb0c1a4d6eae4cba151d84f"  # alicepass
+    password_hash: "3b5d5c3712955042212316173ccf37be80021f0a8eb0c1a4d6eae4cba151d84f" # alicepass
+    role: "admin"
+    devices: ["device123", "laptop001"]
   bob:
-    role: editor
-    password_hash: "cd0aa4c4dcae38ff38ec1a0ff9949c1a53ee56a8a4e0e6bb7e61c91de10d08c2"  # bobpass
+    password_hash: "178229987978255b7661073e5108036573e6592f03672d2449525946c764e567" # bobpass
+    role: "editor"
+    devices: ["device456"]
   eve:
-    role: viewer
-    password_hash: "4f3bc88a83c6d126ed5b3a57de34b8faefb56a2334857a9d69f0c5d8a0f9f563"  # evepass
+    password_hash: "6f5280c7499684179b47e5b699e1bc7076a9f0f97bc353e8e19c0b05b0d6657a" # evepass
+    role: "viewer"
+    devices: [] # No restriction for eve in your setup
 
-# Optional device mapping per user
-devices:
-  alice: ["device123", "laptop001"]
-  bob: ["device456"]
-  # Eve has no device restrictions, will default to pass
-
-# File permissions by role
-file_permissions:
+policies:
   secret_report.txt: ["admin"]
   edit_document.txt: ["admin", "editor"]
   public_note.txt: ["admin", "editor", "viewer"]
-
-# Folder containing the files
-files_folder: "files"
