@@ -42,6 +42,16 @@ Audit and compliance logging
 Generates PDF or HTML summaries of user activity and access attempts  
 Demonstrates system integrity and security posture  
   
+# **Zero Trust Architecture**  
+**Primary Files / Structure**  
+zero_trust_fs/  
+├── main.py  
+├── auth_service.py  
+├── policy_evaluator.py  
+├── device_validator.py  
+├── file_handler.py  
+└── settings.yaml  
+  
 **POTENTIAL Zero Trust Workflow**  
 [Authenticate] → [Authorize] → [Encrypt/Protect] → [Audit]  
   
