@@ -52,10 +52,10 @@ zero_trust_fs/
 ├── file_handler.py  
 └── settings.yaml  
   
-**POTENTIAL Zero Trust Workflow**  
+**Zero Trust Workflow**  
 [Authenticate] → [Authorize] → [Encrypt/Protect] → [Audit]  
   
-(Potential / Future)  
+Future Files / Structure:  
 zero trust fs/  
 ├── orchestrator/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# controls request validation flow  
 ├── identity/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# authentication + identity validation  
