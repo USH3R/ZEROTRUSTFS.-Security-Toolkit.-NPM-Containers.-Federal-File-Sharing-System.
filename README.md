@@ -161,34 +161,45 @@ https://github.com/USH3R/REDTEAM.-Offensive-Security-Simulator
 https://github.com/USH3R/BLUETEAM.-SentinelOps.-Defense-Detection-System-Dashboard  
 **Zero Trust (Federal File Sharing System):** Builds secure, auditable, zero trust-compliant systems.  
 Together, these projects showcase full-spectrum cybersecurity capability, illustrating that the author can attack, defend, and build secure systems across the complete security lifecycle.  
-
+  
+# **Zero Trust FS Security Toolkit - Instructions and Interaction**  
+To access, run, and interact with the **Zero Trust FS Security Toolkit**:  
+1. Open a **Codespace terminal** in your repository on GitHub.com.  
+2. In the terminal, type the following command to start the application:  
+    bash run.sh
+3. The Zero Trust FS Security Toolkit will begin and prompt you for the following inputs to type:
+  - Username
+  - Password
+  - Device
+  - Accessible file
 <table>
   <thead>
     <tr>
       <th>Username</th>
-      <th>Role</th>
-      <th>Devices</th>
-      <th>Accessible Files</th>
+      <th>Password</th>
+      <th>Device</th>
+      <th>Accessible File</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Alice</td>
-      <td>admin</td>
+      <td>alicepass</td>
       <td>device123</td>
       <td>secret_report.txt</td>
     </tr>
     <tr>
       <td>Bob</td>
-      <td>editor</td>
+      <td>bobpass</td>
       <td>device456</td>
       <td>edit_document.txt</td>
     </tr>
     <tr>
       <td>Eve</td>
-      <td>viewer</td>
+      <td>evepass</td>
       <td>Any</td>
       <td>public_note.txt</td>
     </tr>
   </tbody>
 </table>
+⚠️ Important: Usernames, passwords, devices, and accessible files are not interchangeable. Do not mix them when using the Security Toolkit app.  
