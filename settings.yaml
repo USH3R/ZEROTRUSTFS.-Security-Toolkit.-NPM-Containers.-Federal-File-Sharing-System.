@@ -1,4 +1,25 @@
+# settings.yaml - Updated for Alice, Bob, and Eve
+
 users:
+  alice:
+    password_hash: 13dc8554575637802eec3c0117f41591a990e1a2d37160018c48c9125063838a  # alicepass
+    role: admin
+    devices: ["device123"]
+
+  bob:
+    password_hash: 178229987978255b7661073e5108036573e6592f03672d2449525946c764e567  # bobpass
+    role: editor
+    devices: ["device456"]
+
+  eve:
+    password_hash: 6f5280c7499684179b47e5b699e1bc7076a9f0f97bc353e8e19c0b05b0d6657a  # evepass
+    role: viewer
+    devices: ["device789"]  # Eve can type any placeholder device ID
+
+policies:
+  secret_report.txt: ["admin"]
+  edit_document.txt: ["admin", "editor"]
+  public_note.txt: ["admin", "editor", "viewer"]users:
   alice:
     password_hash: 13dc8554575637802eec3c0117f41591a990e1a2d37160018c48c9125063838a
     role: admin
