@@ -1,5 +1,4 @@
-# identity/auth_service.py
-
+# auth_service.py
 import hashlib
 
 def authenticate_user(username, password, config):
