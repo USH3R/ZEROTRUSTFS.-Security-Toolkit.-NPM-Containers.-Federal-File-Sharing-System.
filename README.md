@@ -161,3 +161,34 @@ https://github.com/USH3R/REDTEAM.-Offensive-Security-Simulator
 https://github.com/USH3R/BLUETEAM.-SentinelOps.-Defense-Detection-System-Dashboard  
 **Zero Trust (Federal File Sharing System):** Builds secure, auditable, zero trust-compliant systems.  
 Together, these projects showcase full-spectrum cybersecurity capability, illustrating that the author can attack, defend, and build secure systems across the complete security lifecycle.  
+
+<table>
+  <thead>
+    <tr>
+      <th>Username</th>
+      <th>Role</th>
+      <th>Devices</th>
+      <th>Accessible Files</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Alice</td>
+      <td>admin</td>
+      <td>device123</td>
+      <td>secret_report.txt</td>
+    </tr>
+    <tr>
+      <td>Bob</td>
+      <td>editor</td>
+      <td>device456</td>
+      <td>edit_document.txt</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>viewer</td>
+      <td>Any</td>
+      <td>public_note.txt</td>
+    </tr>
+  </tbody>
+</table>
