@@ -1,0 +1,28 @@
+# settings.yaml
+
+# Users and their roles and password hashes (SHA256)
+users:
+  alice:
+    role: admin
+    password_hash: "ef92b778ba6a..."  # SHA256 of alice's password
+  bob:
+    role: editor
+    password_hash: "3c5e5f9f1a2b..."  # SHA256 of bob's password
+  eve:
+    role: viewer
+    password_hash: "5d41402abc4b..."  # SHA256 of eve's password
+
+# Optional device mapping per user
+devices:
+  alice: ["device123", "laptop001"]
+  bob: ["device456"]
+  # Eve has no device restrictions, will default to pass
+
+# File permissions by role
+file_permissions:
+  secret_report.txt: ["admin"]
+  edit_document.txt: ["admin", "editor"]
+  public_note.txt: ["admin", "editor", "viewer"]
+
+# Folder containing the files
+files_folder: "files"
