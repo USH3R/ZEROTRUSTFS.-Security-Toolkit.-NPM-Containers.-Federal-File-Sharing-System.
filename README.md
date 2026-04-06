@@ -167,17 +167,17 @@ To access, run, and interact with the **Zero Trust FS Security Toolkit**:
 1. Open a **Codespace terminal** in your repository on GitHub.com.  
 2. In the terminal, type the following command to start the application:  
     bash run.sh
-3. The Zero Trust FS Security Toolkit will begin and prompt you for the following inputs to type:
-  - Username
-  - Password
-  - Device
-  - Accessible file
+3. Terminal Prompts. The Zero Trust FS Security Toolkit will start and sequentially prompt you for input. Follow the prompts carefully:
+- When the terminal displays 'Enter username:', type the Username listed in the table below.
+- When the terminal displays 'Enter password:', type the Password corresponding to that Username listed in the table below.
+- When the terminal displays 'Enter device ID:', type the Device ID associated with that Username listed in the table below.
+- When the terminal displays Enter file to access:', type the file that Username: is allowed to access, listed in the table below.
 <table>
   <thead>
     <tr>
       <th>Username</th>
       <th>Password</th>
-      <th>Device</th>
+      <th>Device ID</th>
       <th>Accessible File</th>
     </tr>
   </thead>
