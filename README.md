@@ -68,7 +68,7 @@ zero trust fs/
 ├── lab_env/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# simulated users/devices  
 └── rules_of_engagement/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# safety + compliance  
    
-(Potential / Future)  
+Potential / Future Files / Structure
 zero trust fs/  
 │  
 ├── README.md  
@@ -145,7 +145,7 @@ zero trust fs/
     ├── test_pipeline.py  
     └── test_access_flow.py  
   
-**Proves or shows the following:**  
+**Prove or show the following:**  
 Understanding of secure system design and zero trust principles  
 Practical implementation of encryption, authentication, and access control  
 Ability to produce auditable and compliant security outputs (very federal-friendly)  
