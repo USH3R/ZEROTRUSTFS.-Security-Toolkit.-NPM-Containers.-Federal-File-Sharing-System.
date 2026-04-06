@@ -45,7 +45,7 @@ Demonstrates system integrity and security posture
 **Zero Trust Workflow**  
 [Authenticate] → [Authorize] → [Encrypt/Protect] → [Audit]  
   
-zerotrustfs/
+zero trust fs/  
 ├── orchestrator/              # controls request validation flow  
 ├── identity/                  # authentication + identity validation  
 ├── device_trust/              # device + context verification  
@@ -57,7 +57,7 @@ zerotrustfs/
 ├── lab_env/                   # simulated users/devices  
 └── rules_of_engagement/       # safety + compliance  
   
-zerotrustfs/  
+zero trust fs/  
 │  
 ├── README.md  
 ├── LICENSE  
