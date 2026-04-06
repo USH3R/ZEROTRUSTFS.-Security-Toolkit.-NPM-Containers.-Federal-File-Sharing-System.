@@ -148,7 +148,7 @@ zero trust fs/
 **Prove or show the following:**  
 Understanding of secure system design and zero trust principles  
 Practical implementation of encryption, authentication, and access control  
-Ability to produce auditable and compliant security outputs (very federal-friendly)  
+Ability to produce auditable and compliant security outputs  
   
 **👉 Bonus:**  
 “Rules of engagement” section to show understanding of operational security and secure system limitations  
