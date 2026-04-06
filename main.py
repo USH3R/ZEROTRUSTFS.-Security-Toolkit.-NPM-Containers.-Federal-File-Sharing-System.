@@ -1,47 +1,36 @@
 # main.py
-import sys
-import yaml
-from auth_service import authenticate_user
+
+from auth_service import authenticate
 from device_validator import validate_device
 from policy_evaluator import check_policy
 from file_handler import access_file
 
-# Load configuration
-with open("settings.yaml", "r") as f:
-    CONFIG = yaml.safe_load(f)
+print("🚀 Welcome to Zero Trust FS")
+print("Please enter your username, password, device, and file to begin.\n")
 
-def main():
-    print("=== Zero Trust FS Minimal Pipeline ===\n")
-    
-    # Step 1: Get user input
-    username = input("Enter username: ").strip()
-    password = input("Enter password: ").strip()
-    device_id = input("Enter device ID: ").strip()
-    requested_file = input("Enter file to access: ").strip()
-    
-    # Step 2: Authenticate
-    if not authenticate_user(username, password, CONFIG):
-        print("❌ Authentication failed. Access denied.")
-        sys.exit(1)
-    print("✅ Authentication successful")
-    
-    # Step 3: Device validation (optional)
-    if not validate_device(username, device_id, CONFIG):
-        print("❌ Device validation failed. Access denied.")
-        sys.exit(1)
-    print("✅ Device validation passed")
-    
-    # Step 4: Authorization / policy check
-    if not check_policy(username, requested_file, CONFIG):
-        print("❌ Policy check failed. Access denied.")
-        sys.exit(1)
-    print("✅ Policy check passed")
-    
-    # Step 5: File access enforcement
-    if access_file(username, requested_file, CONFIG):
-        print(f"✅ Access granted: {requested_file}")
-    else:
-        print(f"❌ Access denied: {requested_file}")
+# --- Start authentication workflow ---
+username = input("Enter username: ").strip()
+password = input("Enter password: ").strip()
+device_id = input("Enter device ID: ").strip()
+file_name = input("Enter file to access: ").strip()
 
-if __name__ == "__main__":
-    main()
+# Authentication
+if not authenticate(username, password):
+    print("❌ Authentication failed. Access denied.")
+    exit(1)
+
+# Device validation
+if not validate_device(username, device_id):
+    print("❌ Device validation failed. Access denied.")
+    exit(1)
+
+# Policy / access check
+if not check_policy(username, file_name):
+    print("❌ Policy check failed. Access denied.")
+    exit(1)
+
+# Access file
+if access_file(file_name):
+    print(f"✅ Access granted: {file_name}")
+else:
+    print(f"❌ Unable to access file: {file_name}")
