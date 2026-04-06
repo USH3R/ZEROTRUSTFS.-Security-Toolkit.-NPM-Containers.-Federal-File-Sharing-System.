@@ -170,8 +170,8 @@ To access, run, and interact with the **Zero Trust FS Security Toolkit**:
 3. Terminal Prompts. The Zero Trust FS Security Toolkit will start and sequentially prompt you for input. Follow the prompts carefully:
 - When the terminal displays 'Enter username:', type the Username listed in the table below.
 - When the terminal displays 'Enter password:', type the Password corresponding to that Username listed in the table below.
-- When the terminal displays 'Enter device ID:', type the Device ID associated with that Username listed in the table below.
-- When the terminal displays Enter file to access:', type the file that Username: is allowed to access, listed in the table below.
+- When the terminal displays 'Enter device ID:', type the Device ID corresponding to that Username listed in the table below.
+- When the terminal displays Enter file to access:', type the Accessible File corresponding to that Username listed in the table below.
 <table>
   <thead>
     <tr>
