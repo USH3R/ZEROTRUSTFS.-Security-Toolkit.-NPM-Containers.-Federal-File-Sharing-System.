@@ -1,14 +1,13 @@
-# orchestrator/main.py
-
+# main.py
 import sys
 import yaml
-from identity.auth_service import authenticate_user
-from device_trust.device_validator import validate_device
-from policy_engine.policy_evaluator import check_policy
-from access_gateway.file_handler import access_file
+from auth_service import authenticate_user
+from device_validator import validate_device
+from policy_evaluator import check_policy
+from file_handler import access_file
 
 # Load configuration
-with open("config/settings.yaml", "r") as f:
+with open("settings.yaml", "r") as f:
     CONFIG = yaml.safe_load(f)
 
 def main():
