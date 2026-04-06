@@ -45,6 +45,94 @@ Demonstrates system integrity and security posture
 **Zero Trust Workflow**  
 [Authenticate] → [Authorize] → [Encrypt/Protect] → [Audit]  
   
+zerotrustfs/
+├── orchestrator/              # controls request validation flow  
+├── identity/                  # authentication + identity validation  
+├── device_trust/              # device + context verification  
+├── policy_engine/             # authorization (RBAC / rules)  
+├── crypto/                    # encryption + key management  
+├── access_gateway/            # secure file operations  
+├── audit/                     # logging + compliance tracking  
+├── reporting/                 # security reports  
+├── lab_env/                   # simulated users/devices  
+└── rules_of_engagement/       # safety + compliance  
+  
+zerotrustfs/  
+│  
+├── README.md  
+├── LICENSE  
+├── requirements.txt  
+├── docker-compose.yml  
+├── docs/  
+│   ├── architecture.md  
+│   ├── zero_trust_workflow.md  
+│   ├── nist_mapping.md  
+│   └── rules_of_engagement.md  
+├── config/  
+│   ├── settings.yaml  
+│   ├── policies.yaml  
+│   └── trust_rules.yaml  
+├── lab_env/  
+│   ├── users/  
+│   │   ├── normal_user.py  
+│   │   └── malicious_user.py  
+│   ├── devices/  
+│   │   ├── trusted_device.json  
+│   │   └── untrusted_device.json  
+│   └── file_server/  
+│       ├── Dockerfile  
+│       └── sample_files/  
+├── orchestrator/  
+│   ├── main.py  
+│   ├── pipeline.py  
+│   └── scheduler.py  
+├── identity/  
+│   ├── auth_service.py  
+│   ├── session_validator.py  
+│   └── identity_store.py  
+├── device_trust/  
+│   ├── device_validator.py  
+│   ├── risk_engine.py  
+│   └── context_analyzer.py  
+├── policy_engine/  
+│   ├── policy_evaluator.py  
+│   ├── rbac.py  
+│   └── rules.yaml  
+├── crypto/  
+│   ├── aes_engine.py  
+│   ├── rsa_engine.py  
+│   ├── key_manager.py  
+│   └── vault_simulator.py  
+├── access_gateway/  
+│   ├── file_handler.py  
+│   ├── secure_transfer.py  
+│   └── validator.py  
+├── audit/  
+│   ├── logger.py  
+│   ├── audit_log.json  
+│   └── integrity_checker.py  
+├── reporting/  
+│   ├── report_generator.py  
+│   ├── templates/  
+│   │   ├── activity_report.html  
+│   │   └── compliance_report.html  
+│   └── output/  
+│       └── (generated reports)  
+├── dashboard/  
+│   ├── app.py  
+│   └── templates/  
+│       └── index.html  
+├── logs/  
+│   ├── access.log  
+│   ├── audit.log  
+│   └── security_events.log  
+└── tests/  
+    ├── test_identity.py  
+    ├── test_policy_engine.py  
+    ├── test_crypto.py  
+    ├── test_pipeline.py  
+    └── test_access_flow.py  
+  
 **Proves or shows the following:**  
 Understanding of secure system design and zero trust principles  
 Practical implementation of encryption, authentication, and access control  
